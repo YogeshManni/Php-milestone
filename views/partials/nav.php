@@ -3,8 +3,7 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
                 <div class="flex-shrink-0">
-                    <img class="h-8 w-8" src="../logo.png"
-                        alt="Your Company">
+                    <img class="h-8 w-8" src="../logo.png" alt="Your Company">
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
@@ -12,8 +11,6 @@
                         <a href="/home"
                             class="<?= urlIs('/home') ?  "bg-gray-900 text-white" : "text-gray-300"; ?>  hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium"
                             aria-current="page">Home</a>
-                        <a href="/register"
-                            class="<?= urlIs('/register') ?  "bg-gray-900 text-white" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Register</a>
                         <a href="/payment"
                             class="<?= urlIs('/payment') ?  "bg-gray-900 text-white" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Payment</a>
                         <a href="/services"
@@ -60,7 +57,7 @@
                   From: "transform opacity-100 scale-100"
                   To: "transform opacity-0 scale-95"
               -->
-                    <!--     <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                        <!--     <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                             role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                            
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
