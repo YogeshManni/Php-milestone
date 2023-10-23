@@ -103,6 +103,7 @@ figure:hover figcaption strong:before {
     <div class="container">
 	<div class="row gx-5 gy-5">
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w1.png');" class="ocean">
 				<figcaption>
 					<a href="">
@@ -110,22 +111,28 @@ figure:hover figcaption strong:before {
 					</a>	
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w2.png');" class="ocean">
 				<figcaption>
 					<strong>WINDOWS CLEANING</strong>
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w3.png');" class="ocean">
 				<figcaption>
 					<strong>ENGINE CLEANING</strong>
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure  style="background-image: url('../images/w4.png');" class="ocean">
 				<figcaption>
 					<a href="">
@@ -133,22 +140,28 @@ figure:hover figcaption strong:before {
 					</a>	
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w5.png');" class="ocean">
 				<figcaption>
 					<strong>TYRE REPAIR AND DEEP CLEANING</strong>
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure  style="background-image: url('../images/w6.png');" class="ocean">
 				<figcaption>
 					<strong>CAR POLISHING</strong>
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w7.png');" class="ocean">
 				<figcaption>
 					<a href="">
@@ -156,20 +169,25 @@ figure:hover figcaption strong:before {
 					</a>	
 				</figcaption>
 			</figure>
+</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
+		<a href="/services">
 			<figure style="background-image: url('../images/w8.png');" class="ocean">
 				<figcaption>
 					<strong>OUTER SIDE FLEX CLEANING</strong>
 				</figcaption>
 			</figure>
+		</a>
 		</div>
 		<div class="col-md-4 col-sm-6">
-			<figure style="background-image: url('../images/w9.png');" class="ocean">
+			<a href="/services">
+			<figure   style="background-image: url('../images/w9.png');" class="ocean">
 				<figcaption>
 					<strong>FULL DETAIL CAR CLEANING PACKAGE</strong>
 				</figcaption>
 			</figure>
+		</a>
 		</div>
 	</div>
 </div>
