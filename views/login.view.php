@@ -40,7 +40,7 @@
 
     <p class="mt-10 text-center text-sm text-gray-500">
       Not have a login?
-      <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Register Now</a>
+      <a href="/register" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Register Now</a>
     </p>
   </div>
 </div>
