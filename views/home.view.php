@@ -142,14 +142,15 @@ $locations  = ["Main Street - Vancouver",
 </form>
 
 <div class="container">
+
     <div class="row gx-5 gy-5">
         <div class="col-md-4 col-sm-6">
             <a href="/services">
                 <figure style="background-image: url('../images/w1.png');" class="ocean">
                     <figcaption>
-                        <a href="">
-                            <strong>DETAIL CAR WASHING</strong>
-                        </a>
+
+                        <strong>DETAIL CAR WASHING</strong>
+
                     </figcaption>
                 </figure>
             </a>
@@ -176,9 +177,9 @@ $locations  = ["Main Street - Vancouver",
             <a href="/services">
                 <figure style="background-image: url('../images/w4.png');" class="ocean">
                     <figcaption>
-                        <a href="">
-                            <strong>OIL CHANGE AND UNDER HOOD CAR CLEANING</strong>
-                        </a>
+
+                        <strong>OIL CHANGE AND UNDER HOOD CAR CLEANING</strong>
+
                     </figcaption>
                 </figure>
             </a>
@@ -205,9 +206,9 @@ $locations  = ["Main Street - Vancouver",
             <a href="/services">
                 <figure style="background-image: url('../images/w7.png');" class="ocean">
                     <figcaption>
-                        <a href="">
-                            <strong>INTERIOR DETAIL CLEANING</strong>
-                        </a>
+
+                        <strong>INTERIOR DETAIL CLEANING</strong>
+
                     </figcaption>
                 </figure>
             </a>
