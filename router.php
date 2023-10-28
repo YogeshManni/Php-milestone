@@ -10,7 +10,8 @@ $URI = parse_url($_SERVER['REQUEST_URI'])['path'];
     '/home' => "controllers/home.php",
     '/register' => "controllers/register.php",
     '/payment' => "controllers/payment.php",
-    '/services' => "controllers/services.php"
+    '/services' => "controllers/services.php",
+    '/tracking' => "controllers/tracking.php",
 
  ];
 
