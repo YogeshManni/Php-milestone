@@ -48,7 +48,7 @@ It's great that you've developed the basic components of your on-demand car wash
 Remember to prioritize user experience, security, and scalability when adding these features. Regularly update your app to fix bugs, improve performance, and adapt to changing user needs. Your on-demand car wash app can be a success with the right set of features and a commitment to customer satisfaction.
 
 
-Qjuestion  - Thanks, I am intersted in Tracking service page. can you give me more details about it?
+Question  - Thanks, I am intersted in Tracking service page. can you give me more details about it?
 
 Certainly! Implementing a tracking service page in your on-demand car wash app is a valuable feature that allows users to monitor the status and progress of their car wash service requests. Here are the key details and components you should consider for this page:
 
@@ -77,3 +77,8 @@ Certainly! Implementing a tracking service page in your on-demand car wash app i
 12. **Error Handling:** Be prepared for situations where the service status might not update correctly or if there are communication issues between the user, the app, and the service provider. Ensure that error handling is in place to handle such scenarios gracefully.
 
 Overall, the tracking service page should offer a transparent and user-friendly way for customers to stay informed about their car wash service. It enhances their experience, builds trust, and allows for smooth communication between users and service providers. This, in turn, can help improve customer satisfaction and retention.
+
+
+Question - I have designed this track services page where i listed the history and current status in form of trackbar, what else can be done on that page.
+
+Response was not quite useful. It again gave me same repetitive result telling me to add other pages.
