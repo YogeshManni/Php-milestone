@@ -111,4 +111,12 @@ Cost Breakdown: Break down the total cost of the service into individual compone
 
 Service Photos and Documentation: Allow the service provider to upload photos or documents related to the service, such as photos of the vehicle before and after the service or service receipts.
 
-Added few other changes to Tracking page after that and commited it to Git Repository.
+* Added partials (header and navbar) to the tracking view page
+
+* Added an image to the tracking page
+
+* Used Php For loop to display the current and previous status of service.
+
+* Added additional css and html code to finish the tracking page
+
+
