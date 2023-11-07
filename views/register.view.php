@@ -1,15 +1,18 @@
 <?php require "partials/head.php" ?>
 
 <?php require "partials/nav.php" ?>
+<?php require "partials/banner.php" ?>
 
 <main>
 <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-sm">
     <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Register new account</h2>
   </div>
-
+  
   <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-    <form class="space-y-6" action="../controllers/register.php" method="POST">
+  <p style='color:green'><?=$success ?? ''?></p>
+    <p style='color:red'><?=$errors ?? ''?></p>
+    <form class="space-y-6" action="" method="POST">
     
     <div>
         <label for="username" class="block text-sm font-medium leading-6 text-gray-900">User Name</label>
@@ -49,10 +52,11 @@
     </form>
 
     <p class="mt-10 text-center text-sm text-gray-500">
-      ALready have a login?
+      Already have a login?
       <a href="/" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Login Now</a>
     </p>
+    
   </div>
 </div>
 </main>
-<?php require "partials/footer.php" ?>
+<?php require "partials/footer.php" ?> 
