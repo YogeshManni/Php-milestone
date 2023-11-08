@@ -1,7 +1,10 @@
 <?php
  $heading = "Login";
  
- 
+ /*
+    Login Page will check the request method , if its post then user credentials will be verified 
+    otherwise simply view will be returned
+ */
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['email']))
 {
       require_once "Database.php";  
