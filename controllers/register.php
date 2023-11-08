@@ -1,7 +1,12 @@
 <?php 
  $heading = "Register";
 
-if (isset($_REQUEST['username']))
+ /*
+    Regitser Page will check the request method , if its post then user data will be stored in database
+    otherwise simply view will be returned
+ */
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['username']))
 {
 
     require_once "Database.php"; 
