@@ -163,8 +163,8 @@
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m9 17 8 2L9 1 1 19l8-2Zm0 0V9" />
         </svg>
-        <div class="pl-4 text-sm font-normal">Payment Succeeded fro accoutn 1546 **** **** **** *** redirecting to
-            Homepage in 3 seconds.</div>
+        <div class="pl-4 text-sm font-normal">Payment Succeeded for account 1546 **** **** **** ***, Now redirecting to
+            Status page in 3 seconds.</div>
     </div>
     <div class="container">
 
@@ -172,7 +172,7 @@
 
 
 
-        <div class="form">
+        <div class="form" method="post" action="tracking">
             <form>
                 <div class="flex-row">
                     <label for="card-number">Card Number</label>
@@ -233,11 +233,10 @@
     <?php require "partials/footer.php" ?>
     <script>
     function showToast() {
-        console.log("dssdds")
         document.getElementById('toast-simple').setAttribute('style', 'visibility:visible');
         setTimeout(() => {
             url = window.location.href.split("/");
-            url[url.length - 1] = "home"
+            url[url.length - 1] = "tracking"
             url = url.join("/")
             window.location.href = url
 
