@@ -151,7 +151,7 @@ $services  = [
     <figcaption>
       <h4>Tracking Details</h4>
       <h6>Order Number</h6>
-      <h2># A61452B</h2>
+      <h2># <?= $order_number ?></h2>
     </figcaption>
   </figure>
 
@@ -175,6 +175,10 @@ $services  = [
 				?>
    
   </div>
+  <div style="text-align:center">
+        <a href="/home"> <button type="button"
+                class="text-white mx-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Select another Service</button></a>
+    </div>
 </section>
 </body>
 </html>

@@ -149,7 +149,7 @@ $locations  = ["Main Street - Vancouver",
         {
            $index  = $ind + 1; 
           echo  "<div class='col-md-4 col-sm-6'>
-                <a href='/services'>
+                <a href='/services?id={$index}'>
                     <figure style='background-image: url(../images/w{$index}.png)' class='ocean'>
                         <figcaption>
 
