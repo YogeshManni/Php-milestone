@@ -84,51 +84,13 @@
         </div>
     </div>
 
-    <div class="nav-bar">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a href="#" class="navbar-brand">MENU</a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link active">Service</a>
-                        <a href="price.html" class="nav-item nav-link">Price</a>
-                        <a href="location.html" class="nav-item nav-link">Washing Points</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Detail Page</a>
-                                <a href="team.html" class="dropdown-item">Team Member</a>
-                                <a href="booking.html" class="dropdown-item">Schedule Booking</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <div class="ml-auto">
-                        <a class="btn btn-custom" href="#">Get Appointment</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
+   
 
     <div class="page-header">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Service</h2>
-                </div>
-                <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Service</a>
-                </div>
-            </div>
+            
+                   <p style='color:white'><?= $service_detail['service_detail']?></p>
+             
         </div>
     </div>
 
@@ -143,56 +105,56 @@
                     <div class="service-item">
                         <i class="flaticon-car-wash-1"></i>
                         <h3>Exterior Washing</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Exterior car washing is the process of cleaning the outer surfaces of a vehicle, primarily focusing on the body, windows, wheels, and other external components.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-car-wash"></i>
                         <h3>Interior Washing</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Interior car washing enhances the cleanliness, comfort, and overall appearance of the vehicle's cabin. It can make the interior look and feel like new.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-vacuum-cleaner"></i>
                         <h3>Vacuum Cleaning</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Car vacuum cleaning is a cleaning process that involves using a vacuum cleaner specifically designed for cleaning the interior of a vehicle. This process is essential for maintaining a clean and hygienic car interior</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-seat"></i>
                         <h3>Seats Washing</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Car seat washing is the process of cleaning and refreshing the seats in a vehicle's interior. Over time, car seats can accumulate dirt, stains, and odors, making them appear worn and less appealing.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-car-service"></i>
                         <h3>Window Wiping</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Car window wiping, often referred to as window cleaning or window wiping, is a process of cleaning the windows of a vehicle to ensure they are free from dirt, streaks, and smudges, providing clear visibility for the driver and passengers.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-car-service-2"></i>
                         <h3>Wet Cleaning</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Car wet cleaning refers to the process of cleaning a vehicle's exterior and/or interior surfaces using liquid cleaning agents or water-based cleaning methods. This can include a variety of cleaning tasks depending on the area of the vehicle being addressed.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-car-wash"></i>
                         <h3>Oil Changing</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Car oil changing, also known as an oil change, is a routine maintenance task that involves draining the old engine oil from a vehicle and replacing it with fresh, clean oil. This process is crucial for the health and longevity of the vehicle's engine.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="service-item">
                         <i class="flaticon-brush-1"></i>
                         <h3>Brake Reparing</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        <p>Brake repairing, or brake repair, is the process of inspecting, maintaining, and fixing a vehicle's braking system when it's not functioning properly. The braking system is crucial for the safe operation of a vehicle.</p>
                     </div>
                 </div>
             </div>
