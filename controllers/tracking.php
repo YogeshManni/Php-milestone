@@ -1,5 +1,10 @@
 <?php 
 
+/*
+    A six digit number will be created which is then stored in database as order number, that will
+    be used to track the services status.
+*/
+
 $heading = "Track services";
 
 $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
