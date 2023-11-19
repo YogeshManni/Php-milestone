@@ -52,6 +52,10 @@ This Project uses the MVC architecture.
 
 https://github.com/YogeshManni/Php-milestone/tree/deploym3
 
+# Cpanel Url
+
+https://dgl123.ymanni.imgd.ca/1c/
+
 # Rubric Score
 
 Rubric score was 20.
