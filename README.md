@@ -50,7 +50,7 @@ This Project uses the MVC architecture.
 
 # Github Url
 
-https://github.com/YogeshManni/Php-milestone
+https://github.com/YogeshManni/Php-milestone/tree/deploym3
 
 # Rubric Score
 
