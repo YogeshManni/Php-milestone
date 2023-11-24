@@ -2,6 +2,7 @@
 
 $URI = parse_url($_SERVER['REQUEST_URI'])['path'];
  
+
  #echo("<script>console.log('PHP: " . $URI . "');</script>");
 
  $routes = [
