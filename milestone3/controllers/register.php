@@ -7,6 +7,17 @@ $heading = "Register";
     otherwise simply view will be returned
  */
 
+
+/***
+
+    DUMP THE VARIABLES SECTION
+
+    print($_SERVER['REQUEST_METHOD']); // 'POST'
+    print($_REQUEST['username']); // 'username'
+
+**/
+
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['username']))
 {
 
