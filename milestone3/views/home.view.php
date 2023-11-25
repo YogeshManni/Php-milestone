@@ -148,9 +148,10 @@ $locations  = ["Main Street - Vancouver",
         foreach($services as $ind=>$service)
         {
            $index  = $ind + 1; 
+           $root = getRoot();
           echo  "<div class='col-md-4 col-sm-6'>
-                <a href='/services?id={$index}'>
-                    <figure style='background-image: url(../images/w{$index}.png)' class='ocean'>
+                <a href='services?id={$index}'>
+                    <figure style='background-image: url({$root}/images/w{$index}.png)' class='ocean'>
                         <figcaption>
 
                             <strong>{$service['service_name']}</strong>
@@ -161,7 +162,7 @@ $locations  = ["Main Street - Vancouver",
             </div>";
         }
         ?>
-        
+
     </div>
 </div>
 
