@@ -9,16 +9,16 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="home"
-                            class="<?= urlIs('/home') ?  "bg-gray-900" : "text-gray-300"; ?>  hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium"
-                            aria-current="page">Home</a>
+                            class="<?= urlIs('/home') ?  "bg-gray-900 text-red-500" : "text-gray-300"; ?>  hover:text-white hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium"
+                            >Home</a>
                         <a href="services"
-                            class="<?= urlIs('/services') ?  "bg-gray-900 text-white" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                            class="<?= urlIs('/services') ?  "bg-gray-900 text-red-500" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
                             Services</a>
                         <a href="payment"
-                            class="<?= urlIs('/payment') ?  "bg-gray-900 text-white" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Payment</a>
+                            class="<?= urlIs('/payment') ?  "bg-gray-900 text-red-500" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Payment</a>
 
                         <a href="tracking"
-                            class="<?= urlIs('/tracking') ?  "bg-gray-900 text-white" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                            class="<?= urlIs('/tracking') ?  "bg-gray-900 text-red-500" : "text-gray-300"; ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
                             Track Services</a>
 
                     </div>
