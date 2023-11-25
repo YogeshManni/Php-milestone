@@ -1,5 +1,6 @@
 <?php 
- $heading = "Register";
+
+$heading = "Register";
 
  /*
     Register Page will check the request method , if its post then user data will be stored in database
