@@ -1,18 +1,18 @@
 <?php
 
-$URI = parse_url($_SERVER['REQUEST_URI'])['path'];
+$URI =  parse_url($_SERVER['REQUEST_URI'])['path'];
  
 
  #echo("<script>console.log('PHP: " . $URI . "');</script>");
 
  $routes = [
 
-    '/' => "controllers/login.php",
-    '/home' => "controllers/home.php",
-    '/register' => "controllers/register.php",
-    '/payment' => "controllers/payment.php",
-    '/services' => "controllers/services.php",
-    '/tracking' => "controllers/tracking.php",
+    $proj_root.'/' => "controllers/login.php",
+    $proj_root.'/home' => "controllers/home.php",
+    $proj_root.'/register' => "controllers/register.php",
+    $proj_root.'/payment' => "controllers/payment.php",
+    $proj_root.'/services' => "controllers/services.php",
+    $proj_root.'/tracking' => "controllers/tracking.php",
 
  ];
 
@@ -24,9 +24,11 @@ $URI = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 function routeToController($URI,$routes)
 {
+   
     if(array_key_exists($URI,$routes))
     {
-        require $routes[$URI];
+        
+        require  $routes[$URI];
     }
     else
     {
