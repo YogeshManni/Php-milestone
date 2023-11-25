@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['email']))
         
       if($res == false)
       {
+        error_log("User email not found, please check again or register a new account !!");
         $errors = "User email not found, please check again or register a new account !!";
       }
       else if($res['password'] == $_REQUEST['password'])
