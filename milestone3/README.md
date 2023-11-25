@@ -50,4 +50,4 @@ This Project uses the MVC architecture.
 
 # Github Url
 
-https://github.com/YogeshManni/Php-milestone/tree/projroot
+https://github.com/YogeshManni/Php-milestone
