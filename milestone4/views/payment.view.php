@@ -1,3 +1,5 @@
+
+
 <html>
 
 <head>
@@ -141,16 +143,30 @@
     }
 
     #toast-simple {
-        visibility: hidden;
+        visibility: hidden;;
         z-index: 99;
         position: absolute;
-        margin: 40%;
+        margin: 10% 40% 10% 40%;
+        
     }
     </style>
 </head>
 
 <body>
+<script>
+    function showToast() {
+        document.getElementById('toast-simple').setAttribute('style', 'visibility:visible');
+        setTimeout(() => {
+            url = window.location.href.split("/");
+            url[url.length - 1] = "tracking"
+            url = url.join("/")
+            window.location.href = url
 
+        }, 4000)
+    }
+    </script>
+
+        
     <?php require "partials/head.php" ?>
 
     <?php require "partials/nav.php" ?>
@@ -172,8 +188,8 @@
 
 
 
-        <div class="form" method="post" action="tracking">
-            <form>
+        <div class="form"  >
+            <form method="post" action="">
                 <div class="flex-row">
                     <label for="card-number">Card Number</label>
                     <input name="card-number" class="card-number" type="text" value="">
@@ -219,30 +235,38 @@
                         <input name="card-cvv" class="card-cvv" type="text" value="">
                     </div>
                 </div>
-
+                <button class="submitBtn" > <!--onClick="showToast()"-->
+                Submit
+            </button>
                 <!-- </div> -->
             </form>
 
-            <button class="submitBtn" onClick="showToast()">
-                Submit
-            </button>
+            
             <img class="card-image" src="https://pngimg.com/uploads/credit_card/credit_card_PNG99.png" alt="Card image">
             <div class="card-image-shadow"></div>
         </div>
     </div>
+    <?php
+    if($_SERVER['REQUEST_METHOD'] == 'POST')
+    {
+        if(isset($_POST['card-number']) && isset($_POST['card-name']) && isset($_POST['month'])
+        && isset($_POST['year'])
+        && isset($_POST['card-cvv'])
+        )
+        {
+         ?>
+         <script>
+                showToast();
+        </script>
+        <?php
+         } else
+            { ?>
+         <script>
+                    alert("Please fill all the fields to proceed !!");
+                 </script>
+        <?php }}?>
     <?php require "partials/footer.php" ?>
-    <script>
-    function showToast() {
-        document.getElementById('toast-simple').setAttribute('style', 'visibility:visible');
-        setTimeout(() => {
-            url = window.location.href.split("/");
-            url[url.length - 1] = "tracking"
-            url = url.join("/")
-            window.location.href = url
-
-        }, 4000)
-    }
-    </script>
+   
 </body>
 
 </html>
