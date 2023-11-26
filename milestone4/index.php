@@ -1,5 +1,6 @@
 <?php 
 
+session_start();
 /****** REPORTING FOR TEST SERVER *************/ 
 
 ini_set("error_log", __DIR__ . DIRECTORY_SEPARATOR . "error.log"); // LOG FILE
