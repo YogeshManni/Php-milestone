@@ -5,6 +5,8 @@
     Login Page will check the request method , if its post then user credentials will be verified 
     otherwise simply view will be returned
  */
+$res = null;
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['email']))
 {
       require_once "Database.php";  
@@ -28,6 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_REQUEST['email']))
        }
         
 }
+      
+      $_SESSION['username'] = $res['username'] ?? null;
+     
       require("views/login.view.php");
 
 ?>
