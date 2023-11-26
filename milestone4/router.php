@@ -1,5 +1,7 @@
 <?php
 
+
+
 $URI =  parse_url($_SERVER['REQUEST_URI'])['path'];
  
 
@@ -27,7 +29,7 @@ function routeToController($URI,$routes)
    
     if(array_key_exists($URI,$routes))
     {
-        
+        isUserLogined($URI);
         require  $routes[$URI];
     }
     else
