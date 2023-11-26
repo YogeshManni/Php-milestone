@@ -1,3 +1,9 @@
+<?php
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['logout']))
+    {
+        logout();
+    }
+?>
 <nav class="bg-gray-800">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
@@ -35,8 +41,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
                         </svg>
+                        
                     </button>
-
+                    
                     <!-- Profile dropdown -->
                     <div class="relative ml-3">
                         <div>
@@ -49,9 +56,17 @@
                                     src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                                     alt="">
                             </button>
+                            
                         </div>
 
                     </div>
+                    <form action="" method="POST">
+                        <?php if(isset($_SESSION['username'])) { ?>
+                            <button type="submit" name="logout" class="text-white ml-5 bg-gray-900 p-2"> 
+                                Logout
+                            </button>
+                        <?php } ?>
+                    </form>
                 </div>
             </div>
             <div class="-mr-2 flex md:hidden">
@@ -112,18 +127,12 @@
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
                     </svg>
+                   
                 </button>
+                
             </div>
-            <div class="mt-3 space-y-1 px-2">
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Your
-                    Profile</a>
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
-                <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign
-                    out</a>
-            </div>
+           
+           
         </div>
     </div>
 </nav>
