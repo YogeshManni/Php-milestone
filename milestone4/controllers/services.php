@@ -24,8 +24,8 @@ array(3) { [0]=> array(3) { ["file"]=> string(51) "C:\xampp\htdocs\Php-milestone
 $heading = "Our services";
 require_once "Database.php"; 
 $id = $_GET['id'] ?? 1;
-$service_detail = Database::db()->query("select * from service_details where service_id=:id",['id'=>$id])->fetch();   
-
+$service_detail = Database::db()->query("select * from service_details inner join services on services.id=service_details.id where service_id=:id",['id'=>$id])->fetch();   
+$_SESSION['service'] = $service_detail;
 require "views/services.view.php"
 
 
