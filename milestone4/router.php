@@ -15,6 +15,7 @@ $URI =  parse_url($_SERVER['REQUEST_URI'])['path'];
     $proj_root.'/payment' => "controllers/payment.php",
     $proj_root.'/services' => "controllers/services.php",
     $proj_root.'/tracking' => "controllers/tracking.php",
+    $proj_root.'/orders' => "controllers/orders.php",
 
  ];
 
