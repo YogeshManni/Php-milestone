@@ -254,6 +254,7 @@
         && isset($_POST['card-cvv'])
         )
         {
+            $_SESSION['payment'] = 'done';
          ?>
          <script>
                 showToast();
