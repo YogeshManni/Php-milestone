@@ -192,18 +192,18 @@
             <form method="post" action="">
                 <div class="flex-row">
                     <label for="card-number">Card Number</label>
-                    <input name="card-number" class="card-number" type="text" value="">
+                    <input name="card-number" class="card-number" type="text" >
                 </div>
                 <div class="flex-row">
                     <label for="card-name">Holder Name</label>
-                    <input name="card-name" class="card-name" type="text" value="">
+                    <input name="card-name" class="card-name" type="text" >
                 </div>
 
                 <!-- <div class="flex-row"> -->
                 <label for="month">Expiration Date</label>
-                <div style="display:flex;flex-direction:row;justify-content:space-evenly;width:100%;margin-bottom:20px">
+                <div style="display:flex;flex-direction:row;justify-content:space-between;width:70%;margin-bottom:20px" class="mt-10">
 
-                    <select name="month" id="month-select">
+                    <select name="month" id="month-select" class="text-center">
                         <option value="Month" selected disabled>Month</option>
                         <option value="January">January</option>
                         <option value="February">February</option>
@@ -218,7 +218,7 @@
                         <option value="November">November</option>
                         <option value="December">December</option>
                     </select>
-                    <select name="year" id="year-select">
+                    <select name="year" id="year-select" class="text-center">
                         <option value="Year" selected disabled>Year</option>
 
                         <option value="2023">2023</option>
@@ -230,9 +230,9 @@
                         <option value="2029">2029</option>
                         <option value="2030">2030</option>
                     </select>
-                    <div>
-                        <label for="card-cvv">CVV</label>
-                        <input name="card-cvv" class="card-cvv" type="text" value="">
+                    <div class>
+                        
+                        <input name="card-cvv" class="card-cvv" type="text" value="" placeholder="CVV" class="text-center">
                     </div>
                 </div>
                 <button class="submitBtn" > <!--onClick="showToast()"-->
@@ -249,9 +249,9 @@
     <?php
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
-        if(isset($_POST['card-number']) && isset($_POST['card-name']) && isset($_POST['month'])
-        && isset($_POST['year'])
-        && isset($_POST['card-cvv'])
+        if(!empty($_POST['card-number']) && !empty($_POST['card-name']) && !empty($_POST['month'])
+        && !empty($_POST['year'])
+        && !empty($_POST['card-cvv'])
         )
         {
             $_SESSION['payment'] = 'done';
