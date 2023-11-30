@@ -6,7 +6,17 @@
 */
 
 if(!isset($_SESSION['payment']))
-    header('location:payment');
+{
+    
+?>
+    <script>
+        alert("Please complete the payment prior to track your services !!")
+        window.location.href='\payment';
+    </script>
+
+<?php
+   
+}
 
 require_once "Database.php"; 
 try

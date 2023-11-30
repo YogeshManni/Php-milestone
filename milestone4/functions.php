@@ -32,7 +32,8 @@ global $proj_root;
         
  function logout()
  {
-   // var_dump($_SERVER);
+
+   ob_start();
     session_destroy();
     $addr = getRoot() . '/';
     header("Location: $addr");
