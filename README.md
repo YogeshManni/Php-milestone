@@ -25,6 +25,7 @@ Creating an on-demand car wash project offers numerous advantages. Firstly, it c
 - [x] Services - Each service detail will be described
 - [x] Payment - Payment to book a service
 - [x] Tracking - to track status of car wash service
+- [x] Orders - contains the history of orders placed by users (only visible to admin)
 
 # Usage
 
@@ -48,6 +49,10 @@ This Project uses the MVC architecture.
 - [x] /lib has the library needed for frontend.
 - [x] There is a Data flow Diagram included at the initial level of folder named **Project car wash dfd.png** which describes the overall flow of project.
 
+**Note**
+
+    The latest code of the project is in the milestone4 folder.
+
 # Github Url
 
-https://github.com/YogeshManni/Php-milestone
+https://github.com/YogeshManni/Php-milestone/tree/main/milestone4

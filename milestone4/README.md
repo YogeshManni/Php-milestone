@@ -25,6 +25,7 @@ Creating an on-demand car wash project offers numerous advantages. Firstly, it c
 - [x] Services - Each service detail will be described
 - [x] Payment - Payment to book a service
 - [x] Tracking - to track status of car wash service
+- [x] Orders - contains the history of orders placed by users (only visible to admin)
 
 # Usage
 
@@ -50,4 +51,4 @@ This Project uses the MVC architecture.
 
 # Github Url
 
-https://github.com/YogeshManni/Php-milestone/tree/projroot
+https://github.com/YogeshManni/Php-milestone/tree/main/milestone4
